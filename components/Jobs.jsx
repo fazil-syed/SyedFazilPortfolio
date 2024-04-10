@@ -26,8 +26,8 @@ const Jobs = () => {
         <p
           className={`text-gray-600 text-small-semibold lg:text-base1-semibold ${roboto.className}`}
         >
-          I'm particularly interested in product based positions where I can
-          help make an organization wide impact.
+          I'm eager to be take up product based positions where I can help make
+          an organization wide impact with my skill set.
         </p>
       </div>
     </div>
