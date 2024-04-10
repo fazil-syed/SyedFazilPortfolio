@@ -122,7 +122,7 @@ module.exports = {
         },
       ],
       "base1-semibold": [
-        "16px",
+        "1.3rem",
         {
           lineHeight: "140%",
           fontWeight: "600",
