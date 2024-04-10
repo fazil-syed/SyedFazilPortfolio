@@ -7,7 +7,7 @@ const Jobs = () => {
     <div className="flex items-center justify-center my-28">
       <div className="relative w-[80%] lg:w-[50%]">
         <p
-          className={` text-gray-600 text-small-semibold lg:text-base1-semibold ${roboto.className}`}
+          className={` text-zinc-500 text-small-semibold lg:text-base1-semibold ${roboto.className}`}
         >
           I'm currently looking for jobs
         </p>
@@ -24,7 +24,7 @@ const Jobs = () => {
           {"}"}
         </h1>
         <p
-          className={`text-gray-600 text-small-semibold lg:text-base1-semibold ${roboto.className}`}
+          className={` text-zinc-500 text-small-semibold lg:text-base1-semibold ${roboto.className}`}
         >
           I'm eager to be take up product based positions where I can help make
           an organization wide impact with my skill set.
