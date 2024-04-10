@@ -4,7 +4,7 @@ const roboto = Roboto({ subsets: ["latin"], weight: ["700"] });
 
 const Jobs = () => {
   return (
-    <div className="flex items-center justify-center my-5 mb-28">
+    <div className="flex items-center justify-center my-28">
       <div className="relative w-[80%] lg:w-[50%]">
         <p
           className={` text-gray-600 text-small-semibold lg:text-base1-semibold ${roboto.className}`}
