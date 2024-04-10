@@ -1,9 +1,13 @@
 import React from "react";
 import { Roboto } from "next/font/google";
 const roboto = Roboto({ subsets: ["latin"], weight: ["700"] });
+import { Poppins } from "next/font/google";
+const oswald = Poppins({ subsets: ["latin"], weight: ["700", "400"] });
 const Hero = () => {
   return (
-    <div className=" m-1 p-2  mt-[10%] mb-[8%] lg:mt-[4%] lg:mb-[5%] lg:mx-[10%] lg:p-4">
+    <div
+      className={`m-1 p-2  mt-[10%] mb-[8%] lg:mt-[4%] lg:mb-[5%] lg:mx-[10%] lg:p-4 ${oswald.className}`}
+    >
       <div className="relative">
         <div className="absolute bg-primary-500 inset-0.5 lg:-inset-1 rounded-lg blur"></div>
         <div className="relative py-4 px-4 lg:px-9 lg:py-6 bg-black rounded-lg">
@@ -17,7 +21,7 @@ const Hero = () => {
             Full Stack Developer
           </h1>
           <p
-            className={`my-8 mx-1 text-light-2 text-base-semibold lg:text-body-bold leading-relaxed lg:leading-loose ${roboto.className}`}
+            className={`my-8 mx-1 text-gray-200 text-base-semibold lg:text-body-bold leading-relaxed lg:leading-loose `}
           >
             From an early age, my fascination with computers and games ignited a
             passion. Constantly learning, adapting and developing, I strive to
