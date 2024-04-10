@@ -129,9 +129,9 @@ module.exports = {
         },
       ],
       "small-regular": [
-        "14px",
+        "0.9rem",
         {
-          lineHeight: "140%",
+          lineHeight: "160%",
           fontWeight: "400",
         },
       ],

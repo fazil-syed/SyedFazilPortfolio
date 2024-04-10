@@ -9,9 +9,9 @@ const Jobs = () => {
         <p
           className={` text-zinc-500 text-small-semibold lg:text-base1-semibold ${roboto.className}`}
         >
-          I'm currently looking for jobs
+          I'm currently looking for ...
         </p>
-        <h1 className="text-heading3-semibold lg:text-heading3-bold text-gray-400">
+        <h1 className="text-heading3-semibold lg:text-heading3-bold text-gray-300">
           Jobs: {"{"}
         </h1>
         <h1 className="text-heading3-semibold lg:text-heading3-bold text-transparent gradient-text1 animate-gradient">
@@ -20,7 +20,7 @@ const Jobs = () => {
         <h1 className="text-heading3-semibold lg:text-heading3-bold text-transparent gradient-text2">
           FullStack Developer
         </h1>
-        <h1 className="text-heading3-semibold lg:text-heading3-bold text-gray-400">
+        <h1 className="text-heading3-semibold lg:text-heading3-bold text-gray-300">
           {"}"}
         </h1>
         <p
