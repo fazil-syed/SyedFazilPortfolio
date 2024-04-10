@@ -17,7 +17,7 @@ module.exports = {
     },
     fontSize: {
       "heading1-bold": [
-        "6rem",
+        "5rem",
         {
           lineHeight: "140%",
           fontWeight: "800",
@@ -31,10 +31,10 @@ module.exports = {
         },
       ],
       "heading2-bold": [
-        "3rem",
+        "2.5rem",
         {
           lineHeight: "140%",
-          fontWeight: "800",
+          fontWeight: "700",
         },
       ],
       "heading2-semibold": [
@@ -69,7 +69,7 @@ module.exports = {
         "1.2rem",
         {
           lineHeight: "140%",
-          fontWeight: "700",
+          fontWeight: "500",
         },
       ],
       "body-semibold": [
@@ -118,14 +118,14 @@ module.exports = {
         ".9rem",
         {
           lineHeight: "140%",
-          fontWeight: "600",
+          fontWeight: "500",
         },
       ],
       "base1-semibold": [
         "1.3rem",
         {
           lineHeight: "140%",
-          fontWeight: "600",
+          fontWeight: "400",
         },
       ],
       "small-regular": [
