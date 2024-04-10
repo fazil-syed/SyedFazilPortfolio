@@ -17,7 +17,7 @@ const Hero = () => {
             Full Stack Developer
           </h1>
           <p
-            className={`my-8 mx-1 text-light-2 text-base-semibold lg:text-body-bold lg:leading-loose ${roboto.className}`}
+            className={`my-8 mx-1 text-light-2 text-base-semibold lg:text-body-bold leading-relaxed lg:leading-loose ${roboto.className}`}
           >
             From an early age, my fascination with computers and games ignited a
             passion. Constantly learning, adapting and developing, I strive to
