@@ -150,14 +150,14 @@ module.exports = {
         },
       ],
       "subtle-medium": [
-        "12px",
+        "0.8rem",
         {
           lineHeight: "16px",
           fontWeight: "500",
         },
       ],
       "subtle-semibold": [
-        "12px",
+        "0.8rem",
         {
           lineHeight: "16px",
           fontWeight: "600",

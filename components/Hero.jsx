@@ -24,7 +24,7 @@ const Hero = () => {
             make a impact through innovation and visionary ideas, shaping the
             future with my unwavering commitment to technological advancement.
           </p>
-          <div className="flex justify-items-center gap-3 lg:gap-10">
+          <div className="flex justify-items-center gap-3 lg:gap-10 mb-3">
             <a
               className="w-fit bg-slate-300 relative p-2 lg:px-3 lg:py-3 rounded-lg flex items-center divide-x divide-gray-600"
               href="https://www.linkedin.com/in/syed-fazil-4a8889211/"

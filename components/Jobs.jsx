@@ -4,14 +4,14 @@ const roboto = Roboto({ subsets: ["latin"], weight: ["700"] });
 
 const Jobs = () => {
   return (
-    <div className="flex items-center justify-center my-5 ">
+    <div className="flex items-center justify-center my-5 mb-28">
       <div className="relative w-[80%] lg:w-[50%]">
         <p
-          className={`text-gray-500 text-small-semibold lg:text-base1-semibold ${roboto.className}`}
+          className={` text-gray-600 text-small-semibold lg:text-base1-semibold ${roboto.className}`}
         >
           I'm currently looking for jobs
         </p>
-        <h1 className="text-heading3-semibold lg:text-heading3-bold text-gray-300">
+        <h1 className="text-heading3-semibold lg:text-heading3-bold text-gray-400">
           Jobs: {"{"}
         </h1>
         <h1 className="text-heading3-semibold lg:text-heading3-bold text-transparent gradient-text1 animate-gradient">
@@ -20,11 +20,11 @@ const Jobs = () => {
         <h1 className="text-heading3-semibold lg:text-heading3-bold text-transparent gradient-text2">
           FullStack Developer
         </h1>
-        <h1 className="text-heading3-semibold lg:text-heading3-bold text-gray-300">
+        <h1 className="text-heading3-semibold lg:text-heading3-bold text-gray-400">
           {"}"}
         </h1>
         <p
-          className={`text-gray-500 text-small-semibold lg:text-base1-semibold ${roboto.className}`}
+          className={`text-gray-600 text-small-semibold lg:text-base1-semibold ${roboto.className}`}
         >
           I'm particularly interested in product based positions where I can
           help make an organization wide impact.
