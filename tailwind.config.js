@@ -45,7 +45,14 @@ module.exports = {
         },
       ],
       "heading3-bold": [
-        "24px",
+        "3.3rem",
+        {
+          lineHeight: "140%",
+          fontWeight: "700",
+        },
+      ],
+      "heading3-semibold": [
+        "2.1rem",
         {
           lineHeight: "140%",
           fontWeight: "700",
@@ -108,7 +115,7 @@ module.exports = {
         },
       ],
       "base-semibold": [
-        "16px",
+        "1.3rem",
         {
           lineHeight: "140%",
           fontWeight: "600",
@@ -136,7 +143,7 @@ module.exports = {
         },
       ],
       "small-semibold": [
-        "14px",
+        "1.1rem",
         {
           lineHeight: "140%",
           fontWeight: "600",
@@ -198,42 +205,18 @@ module.exports = {
       },
     },
   },
-  animation: {
-    "gradient-x": "gradient-x 15s ease infinite",
-    "gradient-y": "gradient-y 15s ease infinite",
-    "gradient-xy": "gradient-xy 15s ease infinite",
-  },
   keyframes: {
-    "gradient-y": {
-      "0%, 100%": {
-        "background-size": "400% 400%",
-        "background-position": "center top",
+    gradient: {
+      "0%": {
+        backgroundPosition: "0% 50%",
       },
-      "50%": {
-        "background-size": "200% 200%",
-        "background-position": "center center",
-      },
-    },
-    "gradient-x": {
-      "0%, 100%": {
-        "background-size": "200% 200%",
-        "background-position": "left center",
-      },
-      "50%": {
-        "background-size": "200% 200%",
-        "background-position": "right center",
-      },
-    },
-    "gradient-xy": {
-      "0%, 100%": {
-        "background-size": "400% 400%",
-        "background-position": "left center",
-      },
-      "50%": {
-        "background-size": "200% 200%",
-        "background-position": "right center",
+      "100%": {
+        backgroundPosition: "100% 50%",
       },
     },
   },
-  plugins: [],
+  animation: {
+    gradient: "gradient 6s linear infinite",
+  },
+  plugins: [require("tailwindcss-animate")],
 };

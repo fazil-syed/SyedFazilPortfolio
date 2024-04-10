@@ -1,35 +1,38 @@
 import React from "react";
 import { Roboto } from "next/font/google";
-// import { linkedin } from "@/assets/linkedin.svg";
 const roboto = Roboto({ subsets: ["latin"], weight: ["700"] });
 const Hero = () => {
   return (
-    <div className="bg-black  pt-[8%] mx-[3%] p-4">
+    <div className=" m-1 p-2  mt-[10%] mb-[8%] lg:mt-[4%] lg:mb-[5%] lg:mx-[10%] lg:p-4">
       <div className="relative">
-        <div className="absolute bg-fuchsia-300 -inset-1 rounded-lg blur"></div>
-        <div className="relative px-9 py-6 bg-black rounded-lg">
-          <h1 className="text-heading1-bold">Syed Fazil</h1>
-          <h1 className="text-heading2-bold">
+        <div className="absolute bg-primary-500 inset-0.5 lg:-inset-1 rounded-lg blur"></div>
+        <div className="relative py-4 px-4 lg:px-9 lg:py-6 bg-black rounded-lg">
+          <h1 className=" text-heading2-semibold lg:text-heading1-bold">
+            Syed Fazil
+          </h1>
+          <h1 className="text-body-bold lg:text-heading2-bold">
             Aspiring Software Engineer and{" "}
           </h1>
-          <h1 className="text-heading2-bold">Full Stack Developer</h1>
+          <h1 className="text-body-bold  lg:text-heading2-bold">
+            Full Stack Developer
+          </h1>
           <p
-            className={`my-8 mx-1 text-light-2  text-body-bold ${roboto.className}`}
+            className={`my-8 mx-1 text-light-2 text-base1-semibold lg:text-body-bold lg:leading-loose ${roboto.className}`}
           >
             From an early age, my fascination with computers and games ignited a
             passion. Constantly learning, adapting and developing, I strive to
             make a impact through innovation and visionary ideas, shaping the
             future with my unwavering commitment to technological advancement.
           </p>
-          <div className="flex justify-items-center gap-10">
+          <div className="flex justify-items-center gap-3 lg:gap-10">
             <a
-              className="w-fit bg-slate-300 relative px-4 py-4 rounded-lg flex items-center divide-x divide-gray-600"
+              className="w-fit bg-slate-300 relative p-2 lg:px-3 lg:py-3 rounded-lg flex items-center divide-x divide-gray-600"
               href="https://www.linkedin.com/in/syed-fazil-4a8889211/"
               target="__blank"
             >
-              <span className="flex items-center space-x-5 pr-3">
+              <span className="flex items-center pr-1 lg:space-x-5 lg:pr-3">
                 <svg
-                  className="w-9 h-9"
+                  className="w-6 h-6 lg:w-9 lg:h-9"
                   viewBox="0 0 24 24"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -54,16 +57,18 @@ const Hero = () => {
                   />
                 </svg>
               </span>
-              <span className=" text-black pl-3 text-body1-bold">LinkedIn</span>
+              <span className=" text-black pl-1 lg:pl-3 text-base-medium  lg:text-body1-bold">
+                LinkedIn
+              </span>
             </a>
             <a
-              className="w-fit bg-slate-300 relative px-4 py-4 rounded-lg flex items-center divide-x divide-gray-600"
+              className="w-fit bg-slate-300 relative p-2 lg:px-3 lg:py-1 rounded-lg flex items-center divide-x divide-gray-600"
               href="https://github.com/fazil-syed"
               target="__blank"
             >
-              <span className="flex items-center space-x-5 pr-3">
+              <span className="flex items-center lg:space-x-5 lg:pr-3">
                 <svg
-                  className="w-9 h-9"
+                  className="w-6 h-6 lg:w-9 lg:h-9"
                   viewBox="0 0 24 24"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -96,7 +101,9 @@ const Hero = () => {
                   </g>
                 </svg>
               </span>
-              <span className=" text-black pl-3 text-body1-bold">GitHub</span>
+              <span className=" text-black pl-1 lg:pl-3 text-base-medium lg:text-body1-bold">
+                GitHub
+              </span>
             </a>
           </div>
         </div>
