@@ -1,3 +1,5 @@
+const { transform } = require("next/dist/build/swc");
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ["class"],
@@ -94,10 +96,10 @@ module.exports = {
         },
       ],
       "body1-bold": [
-        "18px",
+        "1rem",
         {
           lineHeight: "140%",
-          fontWeight: "700",
+          fontWeight: "500",
         },
       ],
       "base-regular": [
@@ -177,6 +179,13 @@ module.exports = {
           fontWeight: "600",
         },
       ],
+      "icon-md": [
+        "8rem",
+        {
+          lineHeight: "100%",
+          fontWeight: "500",
+        },
+      ],
     },
     extend: {
       colors: {
@@ -205,6 +214,10 @@ module.exports = {
       },
     },
   },
+  animation: {
+    "loop-scroll": "loop-scroll 50s linear infinite",
+    gradient: "gradient 6s linear infinite",
+  },
   keyframes: {
     gradient: {
       "0%": {
@@ -214,9 +227,10 @@ module.exports = {
         backgroundPosition: "100% 50%",
       },
     },
-  },
-  animation: {
-    gradient: "gradient 6s linear infinite",
+    "loop-scroll": {
+      from: { transform: "translateX(0)" },
+      to: { transform: "translateX(-100%)" },
+    },
   },
   plugins: [require("tailwindcss-animate")],
 };

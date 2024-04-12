@@ -30,6 +30,9 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  .paused {
+    animation-play-state: paused;
+  }
 }
 
 .gradient-text1 {
@@ -59,4 +62,24 @@ body {
   );
   background-size: 300% 300%;
   background-clip: text;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.slide {
+  white-space: nowrap;
+}
+.slide:hover .skills-slide {
+  animation-play-state: paused;
+}
+.skills-slide {
+  /* display: inline-block; */
+  animation: 20s slide infinite linear;
 }
