@@ -82,17 +82,17 @@ module.exports = {
         },
       ],
       "body-medium": [
-        "1.1rem",
+        "1.2rem",
         {
-          lineHeight: "140%",
-          fontWeight: "500",
+          lineHeight: "150%",
+          fontWeight: "600",
         },
       ],
       "body-normal": [
-        "18px",
+        "0.9rem",
         {
-          lineHeight: "140%",
-          fontWeight: "400",
+          lineHeight: "150%",
+          fontWeight: "600",
         },
       ],
       "body1-bold": [
@@ -103,10 +103,10 @@ module.exports = {
         },
       ],
       "base-regular": [
-        "16px",
+        "2rem",
         {
           lineHeight: "140%",
-          fontWeight: "400",
+          fontWeight: "500",
         },
       ],
       "base-medium": [
@@ -138,7 +138,7 @@ module.exports = {
         },
       ],
       "small-medium": [
-        "14px",
+        "1.5rem",
         {
           lineHeight: "140%",
           fontWeight: "500",
