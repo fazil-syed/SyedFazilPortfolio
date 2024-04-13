@@ -1,8 +1,10 @@
-import React from "react";
-import { Roboto } from "next/font/google";
+import { Poppins, Roboto, Teko } from "next/font/google";
 const roboto = Roboto({ subsets: ["latin"], weight: ["700"] });
-import { Poppins } from "next/font/google";
 const oswald = Poppins({ subsets: ["latin"], weight: ["700", "400"] });
+const teko = Teko({
+  subsets: ["latin"],
+  weight: ["300", "400", "700", "600", "500"],
+});
 const Hero = () => {
   return (
     <div
@@ -11,7 +13,9 @@ const Hero = () => {
       <div className="relative">
         <div className="absolute bg-primary-500 inset-0.5 lg:-inset-1 rounded-lg blur"></div>
         <div className="relative py-4 px-4 lg:px-9 lg:py-6 bg-black rounded-lg">
-          <h1 className=" text-heading2-semibold lg:text-heading1-bold">
+          <h1
+            className={` text-heading2-semibold lg:text-heading1-bold ${teko.className}`}
+          >
             Syed Fazil
           </h1>
           <h1 className="text-body-bold lg:text-heading2-bold">
