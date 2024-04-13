@@ -9,7 +9,7 @@ const Jobs = () => {
         <p
           className={` text-zinc-500 text-small-semibold lg:text-base1-semibold ${roboto.className}`}
         >
-          I'm currently looking for ...
+          I'm currently looking for...
         </p>
         <h1 className="text-heading3-semibold lg:text-heading3-bold text-gray-300">
           Jobs: {"{"}

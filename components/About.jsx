@@ -1,7 +1,6 @@
 import React from "react";
 import { Oswald } from "next/font/google";
 const oswald = Oswald({ subsets: ["latin"] });
-import stub from "@/assets/stub.jpg";
 import Image from "next/image";
 const About = () => {
   return (
@@ -25,7 +24,12 @@ const About = () => {
       </div>
       <div className="flex flex-col lg:flex-row items-center justify-center my-10">
         <div className="m-3 ">
-          <Image src={stub} width={350} height={400} className="rounded-lg" />
+          <Image
+            src={"/assets/stub.jpg"}
+            width={350}
+            height={400}
+            className="rounded-lg"
+          />
         </div>
         <div className="flex flex-col lg:w-[30%] gap-2 ">
           <div className="flex flex-col items-center justify-center mt-3 lg:mt-0 lg:w-[120%] ml-5 p-5 border-0 bg-[#0F0E0E] rounded-lg">
@@ -48,7 +52,7 @@ const About = () => {
                   </svg>
                 </div>
               </div>
-              <p className=" mt-3 mb-2 text-base-medium  lg:text-body1-bold">
+              <p className=" mt-3 mb-2 text-base-medium  md:text-body1-bold">
                 Soft Skills
               </p>
               <p className=" text-small-regular text-gray-200">
@@ -85,7 +89,7 @@ const About = () => {
                   </svg>
                 </div>
               </div>
-              <p className=" mt-3 mb-2 text-base-medium  lg:text-body1-bold">
+              <p className=" mt-3 mb-2 text-base-medium  md:text-body1-bold">
                 Development and Projects
               </p>
               <p className=" text-small-regular text-gray-200">

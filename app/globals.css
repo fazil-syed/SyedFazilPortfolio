@@ -63,7 +63,7 @@ body {
   );
   background-size: 300% 300%;
   background-clip: text;
-  animation: 5s gradient-2 infinite linear;
+  animation: 7s gradient-2 infinite linear;
 }
 
 @keyframes slide {

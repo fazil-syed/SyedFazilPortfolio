@@ -82,7 +82,7 @@ module.exports = {
         },
       ],
       "body-medium": [
-        "18px",
+        "1.1rem",
         {
           lineHeight: "140%",
           fontWeight: "500",
@@ -117,7 +117,7 @@ module.exports = {
         },
       ],
       "base-semibold": [
-        ".9rem",
+        ".8rem",
         {
           lineHeight: "140%",
           fontWeight: "500",
@@ -131,9 +131,9 @@ module.exports = {
         },
       ],
       "small-regular": [
-        "0.9rem",
+        "1rem",
         {
-          lineHeight: "160%",
+          lineHeight: "150%",
           fontWeight: "400",
         },
       ],

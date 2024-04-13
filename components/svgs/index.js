@@ -6,3 +6,4 @@ export { default as SQLIcon } from "./Sql.svg";
 export { default as PythonIcon } from "./Python.svg";
 export { default as NodeIcon } from "./Node.svg";
 export { default as ExpressIcon } from "./Express.svg";
+export { default as GitHubIcon } from "./GitHub.svg";
