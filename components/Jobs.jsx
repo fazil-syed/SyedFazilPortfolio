@@ -14,7 +14,7 @@ const Jobs = () => {
         <h1 className="text-heading3-semibold lg:text-heading3-bold text-gray-300">
           Jobs: {"{"}
         </h1>
-        <h1 className="text-heading3-semibold lg:text-heading3-bold text-transparent gradient-text1 animate-gradient">
+        <h1 className="text-heading3-semibold lg:text-heading3-bold text-transparent gradient-text1 ">
           Software Engineer,
         </h1>
         <h1 className="text-heading3-semibold lg:text-heading3-bold text-transparent gradient-text2">

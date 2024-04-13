@@ -18,75 +18,76 @@ const Skills = () => {
         <div className="flex items-center justify-center m-20">
           <p className="text-small-semibold text-gray-400">SKILLS</p>
         </div>
-        <div className="flex space-x-12 overflow-hidden group">
-          <div className="flex items-center justify-center space-x-28 skills-slide group-hover:paused ">
+        <div className="flex overflow-hidden group ">
+          <div className="flex items-center justify-center skills-slide group-hover:paused  ">
             <SkillCard
-              icon={<ReactIcon className="w-8 h-8 md:w-10 md:h-10" />}
+              icon={<ReactIcon className="w-6 h-6 md:w-8 md:h-8" />}
               title={"React JS"}
             />
             <SkillCard
-              icon={<MongoDBIcon className="w-8 h-8 md:w-10 md:h-10" />}
+              icon={<MongoDBIcon className="w-8 h-8 md:w-8 md:h-8" />}
               title={"Mongo DB"}
             />
             <SkillCard
-              icon={<NextJSIcon className="w-8 h-8 md:w-10 md:h-10" />}
+              icon={<NextJSIcon className="w-8 h-8 md:w-8 md:h-8" />}
               title={"NextJS"}
             />
             <SkillCard
-              icon={<CPPIcon className="w-8 h-8 md:w-10 md:h-10" />}
+              icon={<CPPIcon className="w-8 h-8 md:w-8 md:h-8" />}
               title={"C++"}
             />
             <SkillCard
-              icon={<NodeIcon className="w-8 h-8 md:w-10 md:h-10" />}
+              icon={<NodeIcon className="w-8 h-8 md:w-8 md:h-8" />}
               title={"Node JS"}
             />
             <SkillCard
-              icon={<ExpressIcon className="w-8 h-8 md:w-10 md:h-10" />}
+              icon={<ExpressIcon className="w-8 h-8 md:w-8 md:h-8" />}
               title={"Express"}
             />
             <SkillCard
-              icon={<PythonIcon className="w-8 h-8 md:w-10 md:h-10" />}
+              icon={<PythonIcon className="w-8 h-8 md:w-8 md:h-8" />}
               title={"Python"}
             />
             <SkillCard
-              icon={<SQLIcon className="w-8 h-8 md:w-10 md:h-10" />}
+              icon={<SQLIcon className="w-8 h-8 md:w-8 md:h-8" />}
               title={"SQL"}
             />
           </div>
           <div
-            className="flex items-center justify-center space-x-28 skills-slide group-hover:paused "
+            className="flex items-center justify-center  skills-slide group-hover:paused "
             aria-hidden
           >
             <SkillCard
-              icon={<ReactIcon className="w-8 h-8 md:w-10 md:h-10" />}
+              icon={<ReactIcon className="w-8 h-8 md:w-8 md:h-8" />}
               title={"React JS"}
+              className=""
             />
             <SkillCard
-              icon={<MongoDBIcon className="w-8 h-8 md:w-10 md:h-10" />}
+              icon={<MongoDBIcon className="w-8 h-8 md:w-8 md:h-8" />}
               title={"Mongo DB"}
             />
             <SkillCard
-              icon={<NextJSIcon className="w-8 h-8 md:w-10 md:h-10" />}
+              icon={<NextJSIcon className="w-8 h-8 md:w-8 md:h-8" />}
               title={"NextJS"}
             />
             <SkillCard
-              icon={<CPPIcon className="w-8 h-8 md:w-10 md:h-10" />}
+              icon={<CPPIcon className="w-8 h-8 md:w-8 md:h-8" />}
               title={"C++"}
             />
             <SkillCard
-              icon={<NodeIcon className="w-8 h-8 md:w-10 md:h-10" />}
+              icon={<NodeIcon className="w-8 h-8 md:w-8 md:h-8" />}
               title={"Node JS"}
             />
             <SkillCard
-              icon={<ExpressIcon className="w-8 h-8 md:w-10 md:h-10" />}
+              icon={<ExpressIcon className="w-8 h-8 md:w-8 md:h-8" />}
               title={"Express"}
             />
             <SkillCard
-              icon={<PythonIcon className="w-8 h-8 md:w-10 md:h-10" />}
+              icon={<PythonIcon className="w-8 h-8 md:w-8 md:h-8" />}
               title={"Python"}
             />
             <SkillCard
-              icon={<SQLIcon className="w-8 h-8 md:w-10 md:h-10" />}
+              icon={<SQLIcon className="w-8 h-8 md:w-8 md:h-8" />}
               title={"SQL"}
             />
           </div>

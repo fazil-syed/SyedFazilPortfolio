@@ -48,6 +48,7 @@ body {
   );
   background-size: 300% 300%;
   background-clip: text;
+  animation: 5s gradient-1 infinite linear;
 }
 .gradient-text2 {
   background: linear-gradient(
@@ -62,6 +63,7 @@ body {
   );
   background-size: 300% 300%;
   background-clip: text;
+  animation: 5s gradient-2 infinite linear;
 }
 
 @keyframes slide {
@@ -72,14 +74,31 @@ body {
     transform: translateX(-100%);
   }
 }
-
+@keyframes gradient-1 {
+  from {
+    background-position: 0% 50%;
+  }
+  to {
+    background-position: 100% 50%;
+  }
+}
+@keyframes gradient-2 {
+  from {
+    background-position: 100% 50%;
+  }
+  to {
+    background-position: 0% 50%;
+  }
+}
 .slide {
   white-space: nowrap;
 }
 .slide:hover .skills-slide {
   animation-play-state: paused;
 }
+
 .skills-slide {
   /* display: inline-block; */
-  animation: 20s slide infinite linear;
+  transition: all 0.5s ease;
+  animation: 12s slide infinite linear;
 }
