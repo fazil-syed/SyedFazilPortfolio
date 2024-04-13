@@ -100,5 +100,5 @@ body {
 .skills-slide {
   /* display: inline-block; */
   transition: all 0.5s ease;
-  animation: 18s slide infinite linear;
+  animation: 20s slide infinite linear;
 }
