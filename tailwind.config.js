@@ -110,7 +110,7 @@ module.exports = {
         },
       ],
       "base-medium": [
-        "0.8rem",
+        "0.9rem",
         {
           lineHeight: "140%",
           fontWeight: "500",
