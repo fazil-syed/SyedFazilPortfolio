@@ -57,7 +57,7 @@ const Projects = () => {
             <div className="flex items-start justify-center gap-2">
               {projects.map((_, i) => (
                 <div
-                  className={` transition-all w-3 h-3 bg-white rounded-full ${
+                  className={` transition-all w-1 h-1 md:w-2 md:h-2 lg:w-3 lg:h-3 bg-white rounded-full ${
                     curr === i ? "p-[0.1rem]" : "bg-opacity-50"
                   }`}
                 />
