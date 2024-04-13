@@ -34,7 +34,7 @@ const Hero = () => {
               href="https://www.linkedin.com/in/syed-fazil-4a8889211/"
               target="__blank"
             >
-              <span className="flex items-center pr-1 lg:space-x-5 lg:pr-3">
+              <span className="flex items-center pr-2 md:pr-3">
                 <svg
                   className="w-6 h-6 lg:w-9 lg:h-9"
                   viewBox="0 0 24 24"
@@ -61,7 +61,7 @@ const Hero = () => {
                   />
                 </svg>
               </span>
-              <span className=" text-black pl-1 lg:pl-3 text-base-medium  lg:text-body1-bold">
+              <span className=" text-black pl-2 lg:pl-3 text-base-medium  md:text-body-bold">
                 LinkedIn
               </span>
             </a>
@@ -70,7 +70,7 @@ const Hero = () => {
               href="https://github.com/fazil-syed"
               target="__blank"
             >
-              <span className="flex items-center lg:space-x-5 lg:pr-3">
+              <span className="flex items-center pr-2 md:pr-3">
                 <svg
                   className="w-6 h-6 lg:w-9 lg:h-9"
                   viewBox="0 0 24 24"
@@ -105,7 +105,7 @@ const Hero = () => {
                   </g>
                 </svg>
               </span>
-              <span className=" text-black pl-1 lg:pl-3 text-base-medium lg:text-body1-bold">
+              <span className=" text-black pl-2 lg:pl-3 text-base-medium  md:text-body-bold">
                 GitHub
               </span>
             </a>
