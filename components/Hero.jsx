@@ -31,7 +31,7 @@ const Hero = () => {
             Full Stack Developer
           </h1>
           <p
-            className={`my-8 mx-1 text-gray-200 text-base-semibold lg:text-body-bold leading-relaxed lg:leading-loose `}
+            className={`mb-8 mt-4 mx-1 text-gray-200 text-base-semibold lg:text-body-bold leading-relaxed lg:leading-loose `}
           >
             From an early age, my fascination with computers and games ignited a
             passion. Constantly learning, adapting and developing, I strive to
