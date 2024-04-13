@@ -21,15 +21,15 @@ module.exports = {
       "heading1-bold": [
         "5rem",
         {
-          lineHeight: "140%",
+          lineHeight: "150%",
           fontWeight: "800",
         },
       ],
       "heading1-semibold": [
-        "36px",
+        "2rem",
         {
-          lineHeight: "140%",
-          fontWeight: "800",
+          lineHeight: "150%",
+          fontWeight: "700",
         },
       ],
       "heading2-bold": [
@@ -40,9 +40,9 @@ module.exports = {
         },
       ],
       "heading2-semibold": [
-        "30px",
+        "1.5rem",
         {
-          lineHeight: "140%",
+          lineHeight: "160%",
           fontWeight: "600",
         },
       ],
