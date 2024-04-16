@@ -19,14 +19,14 @@ module.exports = {
     },
     fontSize: {
       "heading1-bold": [
-        "5rem",
+        "3.6rem",
         {
           lineHeight: "150%",
           fontWeight: "800",
         },
       ],
       "heading1-semibold": [
-        "2rem",
+        "1.6rem",
         {
           lineHeight: "150%",
           fontWeight: "700",
@@ -166,7 +166,7 @@ module.exports = {
         },
       ],
       "tiny-medium": [
-        "10px",
+        "1rem",
         {
           lineHeight: "140%",
           fontWeight: "500",

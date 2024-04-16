@@ -10,8 +10,8 @@ const teko = Teko({
 const quicksand = Quicksand({ subsets: ["latin"] });
 const ProjectCard = ({ title, img, description, projectUrl }) => {
   return (
-    <div className={`flex items-center justify-center w-fit shrink-0`}>
-      <div className=" w-[100%] md:w-[65%] flex flex-col items-center justify-center bg-[#0F0E0E]  rounded-md m-5 p-5 md:m-8 md:p-6">
+    <div className={`flex items-center justify-center w-fit shrink-0 `}>
+      <div className=" w-[100%] md:w-[65%] flex flex-col items-center justify-center bg-[#0F0E0E]  rounded-md m-5 p-5 md:m-8 md:p-9">
         <div className="self-start flex items-center justify-center space-x-4 md:space-x-8">
           <p
             className={` text-small-medium  lg:text-base-regular  ${teko.className}`}

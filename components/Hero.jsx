@@ -16,17 +16,17 @@ const Hero = () => {
         <div className="absolute bg-primary-500 inset-0.5 lg:-inset-1 rounded-lg blur"></div>
         <div className="relative py-4 px-4 lg:px-9 lg:py-6 bg-black rounded-lg">
           <h1
-            className={` text-heading1-semibold lg:text-heading1-bold ${inter.className}`}
+            className={` text-heading1-semibold lg:text-heading1-bold ${inter.className} text-light-2`}
           >
             Syed Fazil
           </h1>
           <h1
-            className={`text-heading2-semibold  lg:text-heading2-bold text-[#d6d6d6] ${teko.className}`}
+            className={`text-heading1-semibold lg:text-heading1-bold ${inter.className} text-light-2 `}
           >
             Aspiring Software Engineer and{" "}
           </h1>
           <h1
-            className={`text-heading2-semibold   lg:text-heading2-bold text-[#d6d6d6] ${teko.className}`}
+            className={`text-heading1-semibold lg:text-heading1-bold ${inter.className} text-light-2`}
           >
             Full Stack Developer
           </h1>
