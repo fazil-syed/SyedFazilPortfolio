@@ -25,7 +25,7 @@ const About = () => {
       <div className="flex flex-col lg:flex-row items-center justify-center my-10">
         <div className="m-3 ">
           <Image
-            src={"/assets/stub.jpg"}
+            src={"/assets/image4.jpeg"}
             width={350}
             height={400}
             className="rounded-lg"
