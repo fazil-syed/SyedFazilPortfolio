@@ -16,7 +16,7 @@ const Skills = () => {
     <>
       <div className="m-10">
         <div className="flex items-center justify-center m-20">
-          <p className="text-small-semibold text-gray-400">SKILLS</p>
+          <p className="my-8 text-subtle-medium text-gray-400">SKILLS</p>
         </div>
         <div className="flex overflow-hidden group ">
           <div className="flex items-center justify-center skills-slide group-hover:paused  ">

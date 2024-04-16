@@ -22,7 +22,7 @@ const Projects = () => {
   return (
     <div className="my-10">
       <div className="flex items-center justify-center m-10">
-        <p>PROJECTS</p>
+        <p className="my-8 text-subtle-medium text-gray-400">PROJECTS</p>
       </div>
       <div>
         <div className="overflow-hidden relative ">
